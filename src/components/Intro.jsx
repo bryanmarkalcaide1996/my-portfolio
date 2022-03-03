@@ -6,7 +6,7 @@ import Titles from "./Titles";
 
 function Intro() {
   return (
-    <section className="intro ">
+    <section className="intro">
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <h2 className="intro-greet">Hello, I'm </h2>
@@ -19,10 +19,15 @@ function Intro() {
               })}
             </div>
           </div>
+          <p className="about-description">
+            I'm a full-stack web developer. I utilize both front-end and
+            back-end technologies to create a website that is responsive and a
+            web application with logical functionality.
+          </p>
         </div>
       </div>
+
       <div className="intro-right">
-        <div className="intro-bg"></div>
         <img src={avatar} alt="bryan mark alcaide" className="intro-img" />
       </div>
     </section>

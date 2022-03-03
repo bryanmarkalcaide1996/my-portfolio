@@ -1,5 +1,4 @@
 import Intro from "./components/Intro";
-import About from "./components/About";
 import ProjectList from "./components/ProjectList";
 import Contact from "./components/Contact";
 import ToggleMode from "./components/ToggleMode";
@@ -18,7 +17,6 @@ const App = () => {
     >
       <ToggleMode />
       <Intro />
-      <About />
       <ProjectList />
       <Contact />
     </div>

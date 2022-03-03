@@ -2,15 +2,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 100px;
+  padding: 50px 90px;
 }
 .projectList-text {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .projectList-text h2 {
   font-size: 4rem;
   text-align: center;
 }
 .projectList-text p {
+  margin: 20px;
   text-align: center;
+}
+@media (max-width: 949px) {
+  .projectList {
+    padding: 60px;
+  }
+}
+@media (max-width: 500px) {
+  .projectList {
+    padding: 30px;
+  }
+  .projectList-text h2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-align: center;
+  }
 }

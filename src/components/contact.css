@@ -1,43 +1,91 @@
+.contact,
+.contact-wrapper,
+.contact-container,
+.contact-info,
+.info-item {
+  display: flex;
+}
 .contact {
-  position: relative;
   height: 100vh;
 }
-.contact-bg {
-  background: orangered;
-  height: 100%;
-  position: absolute;
-  width: 30px;
-}
-
-.contact-wrapper {
-  padding: 90px;
-  display: flex;
-}
 .contact-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex: 1;
+  padding: 90px;
 }
 .contact-title {
-  font-size: 3.5rem;
-  width: 80%;
+  font-size: 4vw;
   margin-bottom: 90px;
 }
-.info-item {
-  align-items: center;
-  display: flex;
+.contact-info {
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
 }
+
 .info-item:nth-child(2) {
   margin: 30px 0;
 }
-.contact-icon {
-  width: 32px;
-  margin-right: 30px;
+.contact-icon a {
+  margin-right: 10px;
+}
+.gear-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.gear {
+  width: 65%;
+  height: 100%;
+  object-fit: contain;
+  animation: rotation 5s infinite linear;
 }
 .contact-right {
-  padding: 30px;
+  padding: 90px;
+  flex: 1;
 }
 .right-description {
-  font-weight: 300;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media (max-width: 949px) {
+  .contact {
+    flex-direction: column;
+    height: auto;
+  }
+  .contact-left,
+  .contact-title {
+    margin-bottom: 60px;
+  }
+
+  .contact-title {
+    font-size: 6vw;
+  }
+  .contact-left {
+    margin-bottom: 0;
+  }
+  .contact-left,
+  .contact-right {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-title {
+    margin-bottom: 30px;
+  }
+
+  .contact-left,
+  .contact-right {
+    padding: 30px;
+  }
 }

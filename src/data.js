@@ -8,7 +8,7 @@ import groceryBuddy from "./img/projectImg/groceryBuddy.png";
 import sun from "./img/icons/sun.png";
 import moon from "./img/icons/moon.png";
 
-import phone from "./img/icons/phone.png";
+import LinkedIn from "./img/icons/linkedin.png";
 import email from "./img/icons/email.png";
 import github from "./img/icons/github.png";
 
@@ -116,17 +116,20 @@ const productList = [
 export const bma = [
   {
     id: uniqueID(),
-    name: "bryanmarkalcaide0420@gmail.com",
+    name: "Email",
+    href: "bryanmarkalcaide0420@gmail.com",
     icon: email,
   },
   {
     id: uniqueID(),
-    name: "+63 950 624 4391",
-    icon: phone,
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/bryan-mark-alcaide-0532141ab/",
+    icon: LinkedIn,
   },
   {
     id: uniqueID(),
-    name: "https://github.com/bryanmarkalcaide1996",
+    name: "GitHub",
+    href: "https://github.com/bryanmarkalcaide1996",
     icon: github,
   },
 ];

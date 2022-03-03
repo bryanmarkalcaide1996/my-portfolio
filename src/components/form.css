@@ -5,6 +5,7 @@
   display: block;
   margin-bottom: 30px;
   padding: 10px;
+  width: 100%;
 }
 
 .form-component textarea {
@@ -19,4 +20,9 @@
   color: white;
   cursor: pointer;
   padding: 10px 30px;
+}
+@media (max-width: 500px) {
+  input[type="submit"] {
+    width: 100%;
+  }
 }

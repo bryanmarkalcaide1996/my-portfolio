@@ -4,7 +4,7 @@ import Project from "./Project";
 
 function ProjectList() {
   return (
-    <section className="projectList">
+    <section className="projectList ">
       <div className="projectList-text">
         <h2>Projects and Works</h2>
         <p>Here are some of the projects I've worked on</p>

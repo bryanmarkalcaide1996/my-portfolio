@@ -10,6 +10,11 @@
   border: 3px solid rgb(121, 121, 121);
   height: 500px;
   justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.01);
 }
 .top-border {
   align-items: center;
@@ -31,7 +36,7 @@
 }
 
 .image-container {
-  height: 300px;
+  height: 250px;
   overflow: hidden;
 }
 .image {
@@ -58,4 +63,9 @@
   font-size: 1rem;
   margin: 5px;
   text-shadow: -3px 4px 2px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 480px) {
+  .projectList-card-container {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
 }
