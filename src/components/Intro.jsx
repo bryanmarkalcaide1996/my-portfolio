@@ -21,8 +21,8 @@ function Intro() {
           </div>
           <p className="about-description">
             I'm a full-stack web developer. I utilize both front-end and
-            back-end technologies to create a website that is responsive and a
-            web application with logical functionality.
+            back-end technologies to create a responsive website and web
+            application with logical functionality.
           </p>
         </div>
       </div>
