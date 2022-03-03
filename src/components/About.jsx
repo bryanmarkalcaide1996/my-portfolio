@@ -14,13 +14,9 @@ function About() {
       <div className="about-right">
         <h2 className="about-heading">About Me</h2>
         <p className="about-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore hic
-          fuga veritatis ipsa natus eveniet quas exercitationem debitis magnam
-          soluta cum amet, quae magni repudiandae, beatae explicabo sunt
-          consectetur eius. Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Corrupti quam tempore eaque aut autem animi facere voluptas.
-          Facere enim neque accusamus fuga rem vel, earum consequatur quo
-          recusandae dignissimos voluptates?
+          I'm a full-stack web developer. I utilize both front-end and back-end
+          technologies to create a website that is responsive and a web
+          application with logical functionality.
         </p>
       </div>
     </section>

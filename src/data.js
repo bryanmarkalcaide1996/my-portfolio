@@ -12,6 +12,16 @@ import phone from "./img/icons/phone.png";
 import email from "./img/icons/email.png";
 import github from "./img/icons/github.png";
 
+export const titles = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Node JS",
+  "EJS Template",
+  "React JS",
+  "Mongo DB",
+];
+
 const productList = [
   {
     id: uniqueID(),
