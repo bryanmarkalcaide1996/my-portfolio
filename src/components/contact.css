@@ -1,0 +1,37 @@
+.contact {
+  position: relative;
+  height: 100vh;
+}
+.contact-bg {
+  background: orangered;
+  height: 100%;
+  position: absolute;
+  width: 30px;
+}
+.contact-wrapper {
+  padding: 90px;
+  display: flex;
+}
+.contact-title {
+  font-size: 3.5rem;
+  width: 80%;
+  margin-bottom: 90px;
+}
+.info-item {
+  align-items: center;
+  display: flex;
+}
+.info-item:nth-child(2) {
+  margin: 30px 0;
+}
+.contact-icon {
+  width: 32px;
+  margin-right: 30px;
+}
+.contact-right {
+  padding: 30px;
+}
+.right-description {
+  font-weight: 300;
+  margin-bottom: 60px;
+}

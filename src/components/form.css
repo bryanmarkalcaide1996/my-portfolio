@@ -1,0 +1,22 @@
+.formInput {
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid black;
+  display: block;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.form-component textarea {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form-component input[type="submit"] {
+  background: orangered;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 30px;
+}
