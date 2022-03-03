@@ -5,6 +5,9 @@ import newsLetter from "./img/projectImg/newsletter page.png";
 import profilingApp from "./img/projectImg/profilingApp.png";
 import groceryBuddy from "./img/projectImg/groceryBuddy.png";
 
+import sun from "./img/icons/sun.png";
+import moon from "./img/icons/moon.png";
+
 import phone from "./img/icons/phone.png";
 import email from "./img/icons/email.png";
 import github from "./img/icons/github.png";
@@ -117,4 +120,6 @@ export const bma = [
     icon: github,
   },
 ];
+
+export const toggleIcons = { sun, moon };
 export default productList;

@@ -8,9 +8,15 @@
   position: absolute;
   width: 30px;
 }
+
 .contact-wrapper {
   padding: 90px;
   display: flex;
+}
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .contact-title {
   font-size: 3.5rem;
