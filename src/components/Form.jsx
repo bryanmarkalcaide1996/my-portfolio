@@ -21,6 +21,7 @@ function Form() {
           console.log(error.text);
         }
       );
+    formRef.current.reset();
   }
   return (
     <form ref={formRef} onSubmit={handleSubmit} className="form-component">
@@ -29,20 +30,23 @@ function Form() {
         type="text"
         name="user_name"
         placeholder="Name"
+        required
       />
       <input
         className="formInput"
         type="email"
         name="user_email"
         placeholder="Email"
+        required
       />
       <input
         className="formInput"
         type="text"
         name="user_subject"
         placeholder="Subject"
+        required
       />
-      <textarea name="message" rows="10" />
+      <textarea name="message" rows="10" required />
       <input type="submit" name="submit" />
     </form>
   );
