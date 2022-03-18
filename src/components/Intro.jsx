@@ -3,6 +3,7 @@ import "./intro.css";
 import avatar from "../img/me/me2.png";
 import { titles } from "../data";
 import Titles from "./Titles";
+import { v4 as uniqueID } from "uuid";
 
 function Intro() {
   return (
@@ -15,7 +16,7 @@ function Intro() {
           <div className="intro-my-titles">
             <div className="title-wrapper">
               {titles.map((title) => {
-                return <Titles title={title} />;
+                return <Titles key={uniqueID()} title={title} />;
               })}
             </div>
           </div>

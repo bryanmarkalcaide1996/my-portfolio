@@ -4,6 +4,7 @@ import coffeeHub from "./img/projectImg/e-magazine.png";
 import newsLetter from "./img/projectImg/newsletter page.png";
 import profilingApp from "./img/projectImg/profilingApp.png";
 import groceryBuddy from "./img/projectImg/groceryBuddy.png";
+import pi from "./img/projectImg/pi.png";
 
 import sun from "./img/icons/sun.png";
 import moon from "./img/icons/moon.png";
@@ -27,55 +28,20 @@ const productList = [
     id: uniqueID(),
     type: "React JS",
     src: weatherApp,
-    link: "https://warm-journey-58763.herokuapp.com/",
+    link: "https://polar-ridge-84218.herokuapp.com/",
     title: "React Weather App",
     description:
       "Find out what is the current temperature in your respective area.",
   },
-  // {
-  //   id: uniqueID(),
-  //   type: "React JS",
-  //   src: img,
-  // link: "https://warm-journey-58763.herokuapp.com/",
-  //   title: "Birthday Reminder",
-  //   description:
-  //     "A small component with delete function that renders list of data.",
-  // },
-  // {
-  //   id: uniqueID(),
-  //   type: "React JS",
-  //   src: img,
-  // link: "https://warm-journey-58763.herokuapp.com/",
-  //   title: "Tours",
-  //   description:
-  //     "A basic  app that showcases the functionality of react component.",
-  // },
-  // {
-  //   type: "React JS",
-  //   id: uniqueID(),
-  //   src: img,
-  // link: "https://warm-journey-58763.herokuapp.com/",
-  //   title: "User Reviews",
-  //   description: "A component that emulates a review section of a website.",
-  // },
-  // {
-  //   id: uniqueID(),
-  //   type: "React JS",
-  //   src: img,
-  // link: "https://warm-journey-58763.herokuapp.com/",
-  //   title: "Menu Filter",
-  //   description:
-  //     "A component that renders merchandise list with filter functionality.",
-  // },
 
   {
     id: uniqueID(),
     type: "React JS",
-    src: weatherApp,
-    link: "https://warm-journey-58763.herokuapp.com/",
-    title: "Image Carousel",
+    src: pi,
+    link: "https://pacific-taiga-68698.herokuapp.com/",
+    title: "Phenomenal Innovator",
     description:
-      "A component is used for showcasing featured elements of website like photos, promos, etc...",
+      "A functional agency business model website built using reactJS",
   },
   {
     id: uniqueID(),
