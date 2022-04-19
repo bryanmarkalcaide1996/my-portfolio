@@ -2,7 +2,7 @@ import { v4 as uniqueID } from "uuid";
 import weatherApp from "./img/projectImg/weatherApp.png";
 import coffeeHub from "./img/projectImg/e-magazine.png";
 import newsLetter from "./img/projectImg/newsletter page.png";
-import profilingApp from "./img/projectImg/profilingApp.png";
+import ecommerceApp from "./img/projectImg/ecommerceApp.png";
 import groceryBuddy from "./img/projectImg/groceryBuddy.png";
 import pi from "./img/projectImg/pi.png";
 
@@ -54,12 +54,11 @@ const productList = [
   },
   {
     id: uniqueID(),
-    type: "Node JS",
-    src: profilingApp,
-    link: "https://blooming-falls-80391.herokuapp.com/",
-    title: "Profiling App",
-    description:
-      "Fully functional node JS application that collects data and saves it in a database with level 6 encryption.",
+    type: "React JS",
+    src: ecommerceApp,
+    link: "https://amuse-chattels.netlify.app/",
+    title: "Amuse Chattels Ecommerce App",
+    description: "A furniture ecommerece app built using ReactJS",
   },
   {
     id: uniqueID(),
